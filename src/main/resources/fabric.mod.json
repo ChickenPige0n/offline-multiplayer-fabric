@@ -1,0 +1,33 @@
+{
+	"schemaVersion": 1,
+	"id": "offline-multiplayer",
+	"version": "${version}",
+	"name": "Offline Multiplayer",
+	"description": "This mod aims to enable the disabled multiplayer button when using offline login.",
+	"authors": [
+		"ChickenPige0n"
+	],
+	"contact": {
+		"homepage": "null",
+		"sources": "https://github.com/ChickenPige0n/offline-multiplayer"
+	},
+	"license": "CC0-1.0",
+	"icon": "assets/offline-multiplayer/icon.png",
+	"environment": "*",
+	"entrypoints": {
+		"main": [
+			"chickenpigeon.offlinemultiplayer.OfflineMultiplayer"
+		]
+	},
+	"mixins": [
+		"offline-multiplayer.mixins.json"
+	],
+	"depends": {
+		"fabricloader": ">=0.14.21",
+		"minecraft": "~1.16.5",
+		"java": ">=16"
+	},
+	"suggests": {
+		"another-mod": "*"
+	}
+}

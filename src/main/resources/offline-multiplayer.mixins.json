@@ -1,0 +1,11 @@
+{
+	"required": true,
+	"package": "chickenpigeon.offlinemultiplayer.mixin",
+	"compatibilityLevel": "JAVA_16",
+	"mixins": [
+		"ExampleMixin"
+	],
+	"injectors": {
+		"defaultRequire": 1
+	}
+}
